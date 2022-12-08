@@ -39,6 +39,9 @@ In GitHub you can see some pet projects.
 //Task from www.codewars.com
 
 #### **Experience**
+- [Furniture shop menu](https://jsfiddle.net/Leila88/r93awu7z/1/);
+- [Cover for travel site](https://jsfiddle.net/Leila88/pbhz9g2f/4/);
+- [Aim Training game](https://jsfiddle.net/Leila88/v9qbje5u/2/);
 - [Snake game](https://github.com/LeilaS-88/Snake_game);
 - [2048 game](https://github.com/LeilaS-88/2048_project);
 - [Online-zoo](https://leilas-88.github.io/online-zoo/pages/main/).
