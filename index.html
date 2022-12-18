@@ -53,28 +53,17 @@
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
                 <pre class="code">
-                    function fizzbuzz(n) {
-                        let arr = [];
+                    function processArray(arr, callback) {
                         let newArr = [];
-                        
-                        for(let j = 1; j &lt= n; j++) {
-                          arr.push(j);
+                      
+                        for(let i = 0; i < arr.length; i++) {
+                          newArr.push(callback(arr[i])) ;
+                          
                         }
-                        
-                        for( let i = 1; i &lt;= arr.length; i++) {
-                          if(i % 3 == 0 && i % 5 == 0) {
-                            newArr.push("FizzBuzz");
-                          } else if( i % 5 == 0) {
-                            newArr.push("Buzz");
-                          } else if( i % 3 == 0) {
-                            newArr.push("Fizz");
-                          } else{
-                            newArr.push(i);
-                          }
-                        }
-                        return newArr;
-                      }
+                      return newArr;
+                    }
                 </pre>
+                <p>/Codewars task</p>
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
@@ -86,12 +75,12 @@
             <section class="section" id="projects">
                 <h2 class="section-title">Projets</h2>
                 <ul>
-                    <li><a href="https://jsfiddle.net/Leila88/r93awu7z/1/">Furniture shop menu;</a></li>
-                    <li><a href="https://jsfiddle.net/Leila88/pbhz9g2f/4/">Cover for travel site</a></li>
-                    <li><a href="https://jsfiddle.net/Leila88/v9qbje5u/2/">Aim Training game</a></li>
-                    <li><a href="https://github.com/LeilaS-88/Snake_game">Snake game</a></li>
-                    <li><a href="https://github.com/LeilaS-88/2048_project">2048 game</a></li>
-                    <li><a href="https://leilas-88.github.io/online-zoo/pages/main/">Online-zoo</a></li>
+                    <li><a class="project-link" href="https://jsfiddle.net/Leila88/r93awu7z/1/">Furniture shop menu;</a></li>
+                    <li><a class="project-link" href="https://jsfiddle.net/Leila88/pbhz9g2f/4/">Cover for travel site</a></li>
+                    <li><a class="project-link" href="https://jsfiddle.net/Leila88/v9qbje5u/2/">Aim Training game</a></li>
+                    <li><a class="project-link" href="https://github.com/LeilaS-88/Snake_game">Snake game</a></li>
+                    <li><a class="project-link" href="https://github.com/LeilaS-88/2048_project">2048 game</a></li>
+                    <li><a class="project-link" href="https://leilas-88.github.io/online-zoo/pages/main/">Online-zoo</a></li>
                 </ul>
             </section>
             <section class="section" id="education">
@@ -107,7 +96,12 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container footer-container">
+            <a href="https://rs.school/js-stage0/"><img src="/assets/img/logo-rsschool3.png" alt="RSSchool"></a>
+            <p>2022</p>
+            <a class="footer-name-link" href="https://github.com/LeilaS-88">LeilaS-88</a>
+            
+        </div>
     </footer>
 </body>
 </html>
