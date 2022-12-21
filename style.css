@@ -36,6 +36,7 @@ body {
     justify-content: space-between;
     background-color:rgb(208, 233, 246);
 }
+/* header */
 
 .header {
     border: 1px solid aqua;
@@ -66,6 +67,8 @@ body {
     background: rgb(208, 165, 215);
     color:#56066a
 }
+
+/* main */
 
 .main {
     border: 1px solid aqua;
@@ -115,6 +118,8 @@ body {
 .project-link {
     color: black;
 }
+
+/* footer */
 
 .footer {
     border: 1px solid aqua;
